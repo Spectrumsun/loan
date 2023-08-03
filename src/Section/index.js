@@ -3,8 +3,6 @@ import AllLoan from '../AllLoan';
 import GetRepayment from '../GetRepayment';
 import './index.css';
 
-const basUrl = 'https://okigwecreations.online/api/';
-
 const Section = ({ current }) => {
   const screenObject = {
     request: <Request />,

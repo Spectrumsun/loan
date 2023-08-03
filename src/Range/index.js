@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import rangeSlider from 'range-slider-input';
 
 import './index.css';
@@ -14,6 +14,7 @@ const Range = ({ setLoanAmount, minMax }) => {
         setLoanAmount(value[1])
       }
   })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[]);
 
   return (
