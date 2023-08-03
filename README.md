@@ -3,9 +3,9 @@
 A simple App in Javascript, React, Node, and CSS
 
 # View App
-  * Host App Frontend https://bit-frontend.netlify.app/
+  * [Host App Frontend](https://loan-smaple.netlify.app/)
 
-# ![Screenshot 2023-07-08 at 08 04 45](https://github.com/Spectrumsun/mycover/assets/20597418/d261f5d5-442a-4ef2-8aff-ea3a6749035f)
+# ![Screenshot 2023-08-03 at 23 50 53](https://github.com/Spectrumsun/loan/assets/20597418/0169269c-399a-4de2-b4fd-ea2e87ac73f8)
 
 # Technologies Used
   * HTML5/CSS3,
