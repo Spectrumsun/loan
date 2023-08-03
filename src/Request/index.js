@@ -2,9 +2,7 @@ import { useState } from 'react';
 import toast from 'toastr';
 import Range from '../Range';
 import Loader from '../Loading';
-import { money } from '../index';
-
-const baseUrl = 'https://okigwecreations.online/api/';
+import { money, baseUrl } from '../index';
 
 const Request = () => {
   const [successful, setSuccessful] = useState(false);

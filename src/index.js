@@ -12,6 +12,8 @@ export let money = new Intl.NumberFormat({
   currency: 'NGN',
 });
 
+export const baseUrl = 'https://okigwecreations.online/api/';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import toast from 'toastr';
 import Loader from '../Loading';
-import { money } from '../index';
+import { money, baseUrl } from '../index';
 
 const AllLoan = () => {
   const [transactionId, setTransactionId] = useState('');
@@ -21,7 +21,7 @@ const AllLoan = () => {
       redirect: 'follow'
     };
     try {
-      const fetchResponse = await fetch('https://okigwecreations.online/api/', requestOptions);
+      const fetchResponse = await fetch(baseUrl, requestOptions);
       const data = await fetchResponse.json();
       setIsLoading(false);
       toast.success(`All request`);
